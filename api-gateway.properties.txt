@@ -1,0 +1,5 @@
+server.port=8080
+spring.application.name=api-gateway
+spring.cloud.gateway.discovery.locator.enabled=false
+spring.cloud.gateway.discovery.loactor.lower-case-service-id=true
+eureka.client.sevice-url.defaultZone=http://localhost:8791/eureka/
